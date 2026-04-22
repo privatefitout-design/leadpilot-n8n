@@ -40,9 +40,11 @@ You are a lead qualification AI.
 Analyze this call transcript and return ONLY valid JSON.
 
 Classification:
+Classification (use ONLY these values):
+- hot
 - warm
-- neutral
 - cold
+- no_answer
 
 Return strictly:
 
